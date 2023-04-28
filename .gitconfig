@@ -1,0 +1,19 @@
+[user]
+	name = pavan
+	email = pavan@gmail.com
+[core]
+	editor = --list
+[diff]
+	tool = p4merge
+[difftool "p4merge"]
+	path = C:\\Program Files (x86)\\Perforce\\p4merge.exe
+[difftool]
+	prompt = false
+[merge]
+	tool = p4merge
+[diff "tool.p4merge"]
+	path = c:/Program File (x86)/Perforce/p4merge.exe
+[mergetool "p4merge"]
+	path = C:\\Program Files (x86)\\Perforce\\p4merge.exe
+[init]
+	defaultBranch = main
